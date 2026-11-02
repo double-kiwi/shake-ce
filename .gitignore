@@ -1,0 +1,71 @@
+# Dependencies
+node_modules
+
+# Yarn Plug'n'Play (yarn.lock stays tracked)
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Build output (vite: dist/shake.js and dist/lib)
+dist
+dist-ssr
+*.local
+
+# Type-check incremental info (also written under node_modules/.tmp)
+*.tsbuildinfo
+
+# Test and coverage
+coverage
+*.lcov
+.vitest
+__screenshots__/
+
+# Lint caches (eslint --cache)
+.eslintcache
+.prettiercache
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local env (env.d.ts is source and stays tracked)
+.env
+.env.*
+!.env.example
+
+# Vite
+*.timestamp-*-*.mjs
+
+# Optional e2e artifacts
+/cypress/videos/
+/cypress/screenshots/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
